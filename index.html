@@ -38,7 +38,7 @@
                 <div class="col-md-12 text-center pt-3 pb-3"><b>ЛИЧНЫЕ ДАННЫЕ</b></div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Фамилия, имя, отчество</b> (полностью)</div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Дата рождения</b></div>
                 <div class="col-6 col-md-7">
                     <div class="form-group">
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Гражданство</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Место рождения</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Адрес места жительства</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Условия проживания</b> (необходимо выбрать)</div>
                 <div class="col-6 col-md-7">
                     <select class="form-select" aria-label="Small select example">
@@ -95,14 +95,18 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Мобильный телефон:</b></div>
                 <div class="col-6 col-md-7">
-                    <p>Нужна маска ввода номера телефона</p>
+                    <div class="container-fluid form-control">
+                        <!-- <form action="#" class="form"> -->
+                            <input type="tel" class="phone form-control border-0" name="phone" id="tel" placeholder="+375 (12) 345-67-89"/>
+                        <!-- </form> -->
+                      </div>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Семейное положение</b></div>
                 <div class="col-6 col-md-7">
                     <select class="form-select" aria-label="Small select example">
@@ -113,11 +117,15 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5">
                     <b>Состав семьи: дети</b>(год рождения), <b>супруг(а) </b>(год рождения), живу <b>один(а)</b>
                 </div>
-                <div class="col-6 col-md-7">Some Text</div>
+                <div class="col-6 col-md-7">
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
             </div>
 
             <div class="row">
@@ -134,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Окончил </b>(когда, что, какой факультет) </div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -143,7 +151,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-12 text-center pt-3 pb-3"><b>РАБОТА В ПРОШЛОМ</b></div>
             </div>
 
@@ -156,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Организация</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -165,7 +173,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Должность</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -174,7 +182,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Дата приема/увольнения</b></div>
                 <div class="col-6 col-md-7">
                     <div class="form-group">
@@ -183,7 +191,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Причина увольнения</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -192,11 +200,11 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-12 text-center pt-3 pb-3"><b>РАБОТА В БУДУЩЕМ</b></div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>На какую должность претендует</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -205,7 +213,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Согласен ли на рабочую должность </b>(необходимо выбрать)</div>
                 <div class="col-6 col-md-7">
                     <select class="form-select" aria-label="Small select example">
@@ -216,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Согласен ли на переезд в другую местность </b>(необходимо выбрать)</div>
                 <div class="col-6 col-md-7">
                     <select class="form-select" aria-label="Small select example">
@@ -227,11 +235,11 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-12 text-center pt-3 pb-3"><b>ЛИЧНЫЕ КАЧЕСТВА И НАВЫКИ</b></div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Навыки владения компьютером </b>(необходимое выбрать)<br></div>
                 <div class="col-6 col-md-7">
                     <select class="form-select" aria-label="Small select example">
@@ -243,7 +251,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Знание иностранных языков, степень владения</b></div>
                 <div class="col-6 col-md-7">
                     <div class="input-group">
@@ -252,7 +260,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5">
                     <b>Личные увлечения (хобби): </b>(спорт - вид спорта, худ. самод. - танцы, вокал и др.)
                 </div>
@@ -263,7 +271,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5"><b>Преимущество Вашей кандидатуры </b>(сильные стороны, положительные
                     качества и др.)</div>
                 <div class="col-6 col-md-7">
@@ -273,11 +281,11 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-12"><br><b>Против проверки предоставленной мною информации не возражаю.</b><br></div>
             </div>
 
-            <div class="row">
+            <div class="row border">
                 <div class="col-md-5">
                     <div class="row">
                         <div class="col-md-3 text-left">
@@ -316,6 +324,6 @@
     crossorigin="anonymous"></script>
 <script src="https://unpkg.com/imask"></script>
 
-//<script src="/js/phoneinput.js"></script>
+//<script src="js/phoneinput.js"></script>
 
 </html>
