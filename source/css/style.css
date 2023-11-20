@@ -16,3 +16,9 @@ select:focus
     -webkit-appearance:none !important;
     box-shadow: none !important;
 }
+
+@media (max-width: 755px) {
+  .border-start {
+      border-right: 0px!important;
+  }
+}
