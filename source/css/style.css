@@ -13,6 +13,6 @@ label:focus,
 select:focus
 {
     outline:0px !important;
-    -webkit-appearance:none;
+    -webkit-appearance:none !important;
     box-shadow: none !important;
 }
