@@ -6,15 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-    <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function(){
-            document.querySelector('input').focus();
-        })
-
-    </script>
-
-
     <title>Main</title>
 </head>
 
@@ -98,11 +89,11 @@
             <div class="row border">
                 <div class="col-md-5"><b>Мобильный телефон:</b></div>
                 <div class="col-6 col-md-7">
-                    <div class="container-fluid form-control">
-                        <!-- <form action="#" class="form"> -->
-                            <input type="tel" class="phone form-control border-0" name="phone" id="tel" placeholder="+375 (12) 345-67-89"/>
-                        <!-- </form> -->
-                      </div>
+                    <input class=" container-fluid form-control" id="phone" type="tel" pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?"
+                            title="Введите номер телефона в формате +375 XX XXX XX XX" required>
+                    <!-- <div class="container-fluid form-control">
+                        
+                    </div> -->
                 </div>
             </div>
 
@@ -316,14 +307,16 @@
     </footer>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
-<script src="https://unpkg.com/imask"></script>
-
-//<script src="/source/js/phoneinput.js"></script>
+<script src="https://unpkg.com/imask"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+<script src="/source/js/phoneinput.js"></script>
 
 </html>
